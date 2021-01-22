@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+body {
+  width: 901px;
+  margin: auto;
+  align-items: center;
+}
+header {
+  height: 45px;
+  display: flex;
+  margin: 25px;
+  border-bottom: 13px solid;
+  border-image-source: url(imgs/break.png);
+  padding: 0px 0px 23px 0px;
+  /* justify-content: space-between; */
+  /* justify-content:center; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+header section {
+  /* justify-content: space-between; */
+}
+
+header img {
+  float: left;
+}
+
+#text-left{
+  align-self: flex-start;
+}
+#icons {
+  align-self: flex-end;
+}
+h2 {
+  margin: 0px 0px 0px 10px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+header p {
+  margin: 0px 0px 0px 10px;
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  color: dimgray;
+
+}
