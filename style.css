@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
 body {
   width: 901px;
   margin: auto;
-  align-items: center;
+  /* align-items: center; */
+}
+#header-left {
+  float: left;
 }
 header {
   height: 45px;
   display: flex;
-  margin: 25px;
-  border-bottom: 13px solid;
-  border-image-source: url(imgs/break.png);
-  padding: 0px 0px 23px 0px;
+  /* margin: 25px; */
+  border-bottom: 13px solid rgb(182, 182, 182);
+  /* border-image-source: url(imgs/break.png); */
+  padding: 23px 0px 23px 0px;
   /* justify-content: space-between; */
   /* justify-content:center; */
   /* flex-direction: column; */
@@ -23,7 +28,7 @@ header section {
   /* justify-content: space-between; */
 }
 
-header img {
+header img, #vanessa {
   float: left;
 }
 
@@ -31,7 +36,8 @@ header img {
   align-self: flex-start;
 }
 #icons {
-  align-self: flex-end;
+  margin-left: auto;
+  
 }
 h2 {
   margin: 0px 0px 0px 10px;
@@ -46,4 +52,72 @@ header p {
   font-family: 'Abel', sans-serif;
   color: dimgray;
 
+}
+main section h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin: 40px 0px 10px 0px;
+}
+main section p {
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  color: dimgray;
+  margin: 0px 0px 0px 0px;
+}
+main section div {
+  vertical-align: auto;
+  float: right;
+}
+.paragraph {
+  font-size: 19px;
+  font-family: 'Cardo', serif;
+  text-align: justify;
+  text-indent: 30px;
+  padding: 12px 0px;
+}
+#list-background {
+  width: 900px;
+  height: 305px;
+  background-image: url('images/list-bg.png');
+  display: grid;
+  grid-template-columns: 450px 450px;
+}
+ul {
+  margin: 50px 70px;
+  font-size: 28px;
+  font-family: 'Patrick Hand', cursive;
+  color: grey;
+}
+#pre-footer p {
+  font-size: 14px;
+  font-family: 'Cardo', serif;
+  text-align: justify;
+  padding: 12px 0px;
+  margin: 0px 100px;
+}
+#pre-footer {
+  margin: 30px 0px;
+  border-top: 13px solid rgb(182, 182, 182);
+  /* border-image-source: url(imgs/break.png); */
+  padding: 15px 0px;
+}
+button {
+  float: right;
+  background-color: rgb(173, 60, 19);
+  color: white;
+  padding: 15px 25px;
+  border: none;
+}
+h3 {
+  font-size: 22px;
+  margin: 0px 100px;
+}
+footer {
+  margin: auto;
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+  color: rgb(163, 163, 163);
+}
+footer img{
+  margin: 30px 0px 30px 155px;
 }
